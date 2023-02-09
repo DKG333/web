@@ -1594,18 +1594,17 @@ body .navbar__container{
 
     .popup3 .content { 
         position: fixed;
-        top: 42%;
-        left: 50%;
+        top: 50%;
         transform: translate(-50%,-50%)  scale(0);
         background: rgb(255, 255, 255);
-         width: 400px;
-        height: 400px; 
+         width: 375px;
+        height: 812px; 
         z-index: 2;
         text-align: center;
         padding: 20px;
         box-sizing: border-box;
         z-index: 200;
-        background-image: url(images/Screenshot\ \(704\).png.png);
+        background-image: url(images/360packagesmall.png);
         background-repeat:no-repeat ;
         background-position: left;
     } 
@@ -1613,18 +1612,17 @@ body .navbar__container{
     .popup2 .content2{
   
         position: fixed;
-        top: 42%;
-        left: 50%;
+        top: 50%;
         transform: translate(-50%,-50%)  scale(0);
         background: rgb(255, 255, 255);
-         width: 400px;
-        height: 400px; 
+        width: 375px;
+        height: 812px; 
         z-index: 2;
         text-align: center;
         padding: 20px;
         box-sizing: border-box;
         z-index: 200;
-        background-image: url(images/Screenshot\ \(704\).png.png);
+        background-image: url(images/360packagesmall.png);
         background-repeat:no-repeat ;
         background-position: left;
        
