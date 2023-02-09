@@ -145,6 +145,14 @@ body .navbar__container{
     background-attachment: fixed;
 }
 
+@media (max-width:568px) {
+    .pimg1, .pimg2{
+        background-attachment:scroll;
+        /* background-image: url(images/360.jpg); */
+    }
+    
+}
+
 /* navigation bar */
 
 
@@ -159,6 +167,7 @@ body .navbar__container{
     width: 100%;
     top: 0;
     z-index: 10;
+    
 }
 
 .brand-title {
@@ -218,8 +227,19 @@ body .navbar__container{
 @media (max-width: 500px) {
     #balls{
         display:block;
-        margin-left: 200px;
+        position: absolute;
+        height:30px;
+        width:60px;
+        margin-top: 100px;
+        top: 56%;
+        left: 46%;
+        transform: translate(-50,-50);
+        color: #000000;
+        font-size: 20px;
     }
+    /* .navbar{
+        height: 100px;
+    } */
     html{
         scroll-behavior: smooth;
         overflow-x: hidden;
@@ -229,7 +249,8 @@ body .navbar__container{
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-        position: fixed;
+        position: absolute;
+       
         width: 100%;
         z-index: 1;
 
@@ -304,11 +325,18 @@ body .navbar__container{
         padding: 40px;
         width: 100%;
         margin: 10rem auto 0 auto;
+        /* background-image: url(images/patyschool5.jpg); */
     }
     #feature img{
-
-        margin-top: 10rem;
+    padding-left: -700px;
+    
     }
+    #feature p{
+        font-size: small;
+        padding-right: 100px;
+      
+    }
+    
     
 }
 
@@ -385,7 +413,7 @@ body .navbar__container{
     padding: 20px;
     box-sizing: border-box;
     z-index: 200;
-    background-image: url(images/Screenshot\ \(704\).png.png);
+ 
     background-repeat:no-repeat ;
     background-position: left;
 
@@ -507,6 +535,7 @@ body .navbar__container{
     overflow-y: hidden;
     overflow: hidden;
     position: fixed;
+   
 }
 
 
@@ -1466,6 +1495,7 @@ body .navbar__container{
 
     .popup3 .content .text {
             font-size: 100px;
+            position: fixed;
             
     }
     .text1{
@@ -1492,6 +1522,7 @@ body .navbar__container{
         background-repeat:no-repeat ;
         background-position: left;
     } 
+    
    
     .popup2 .content2{
   
@@ -1643,9 +1674,27 @@ body .navbar__container{
     }
 
 }
-@media (min-width: 700px) and (max-width: 1000px){
-    
+@media (min-width: 500px) and (max-width: 700px){
     .popup3 .content { 
+        position: fixed;
+        /* top: 42%;
+        left: 50%; */
+        transform: translate(-50%,-50%)  scale(0);
+        background: rgb(255, 255, 255);
+         width: 100px;
+        height: 300px; 
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 200;
+        background-image: url(images/360package.png);
+        background-repeat:no-repeat ;
+        background-position: left;
+    } 
+   
+    .popup2 .content2{
+  
         position: fixed;
         top: 42%;
         left: 50%;
@@ -1659,6 +1708,29 @@ body .navbar__container{
         box-sizing: border-box;
         z-index: 200;
         background-image: url(images/360package.png);
+        background-repeat:no-repeat ;
+        background-position: left;
+       
+    
+    }
+
+}
+@media (min-width: 500px) and (max-width: 1000px){
+    
+    .popup3 .content { 
+        position: fixed;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%,-50%)  scale(0);
+        background: rgb(255, 255, 255);
+         width: 600px;
+        height: 750px; 
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 200;
+        background-image: url(images/360packagescaledown.png);
         background-repeat:no-repeat ;
         background-position: left;
     } 
@@ -1706,7 +1778,53 @@ body .navbar__container{
         cursor: pointer;
 
     }
-
+    .button2{
+        width: 200px;
+        height: 400px;
+        margin: 0;
+        background-color: gray;
+        color: white;
+        display: flex;
+        display: table-cell;
+        vertical-align:middle;
+        background-color: yellow;
+        color: black;
+       
+        text-align: center;
+        font-size: 1px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        border-radius: 15px;
+        border: 3px dashed blue;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 45px;
+        margin-bottom: 1000px;
+    }
+    .button3{
+       
+        width: 200px;
+        height: 400px;
+        margin: 0;
+        background-color: gray;
+        color: white;
+        display: flex;
+        display: table-cell;
+        vertical-align:middle;
+        background-color: yellow;
+        color: black;
+       
+        text-align: center;
+        font-size: 1px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        border-radius: 15px;
+        border: 3px dashed blue;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 45px;
+        margin-bottom: 1000px;
+    }
   
 }
 @media (min-width: 1600px) and (max-width: 1800px){
